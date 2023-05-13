@@ -6,6 +6,6 @@ import partytown from "@astrojs/partytown";
 import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
-   site: 'https://unwraped.design',
+   site: 'https://astrosaas-five.vercel.app/',
   integrations: [tailwind(), image(), compress(), partytown(), sitemap()]
 });
